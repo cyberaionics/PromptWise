@@ -12,7 +12,8 @@ dependencies = [
     "matplotlib",
     "pandas",
     "pytest",
-    "python-dotenv"
+    "python-dotenv",
+    "tiktoken"
 ]
 
 [tool.pytest.ini_options]
