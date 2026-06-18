@@ -1,0 +1,20 @@
+[project]
+name = "promptwise"
+version = "0.1.0"
+description = "A contextual-bandit-based prompt selection system for LLM doctor-appointment assistants."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "scipy",
+    "sentence-transformers",
+    "anthropic",
+    "matplotlib",
+    "pandas",
+    "pytest",
+    "python-dotenv"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
